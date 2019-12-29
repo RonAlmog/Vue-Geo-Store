@@ -1,0 +1,27 @@
+{
+  "name": "geo-store",
+  "version": "1.0.0",
+  "description": "My breathtaking Nuxt.js project",
+  "author": "Ron Almog",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "fakerator": "^0.3.0",
+    "graphql": "^14.5.8",
+    "koa": "^2.6.2",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
