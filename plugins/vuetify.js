@@ -5,7 +5,7 @@ import colors from 'vuetify/es5/util/colors'
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'aaa',
+    key: 'zz',
     libraries: 'places',
   },
 })

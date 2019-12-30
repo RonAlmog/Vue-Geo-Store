@@ -3,7 +3,7 @@
     <Map
       @click="onMapClick"
     />
-    <!-- <Toolbar /> -->
+    <Toolbar />
     <v-navigation-drawer
       v-model="showStorePanel"
       right
@@ -11,21 +11,21 @@
       fixed
       :width="400"
     >
-      <!-- <StoreInfo /> -->
+      <StoreInfo />
     </v-navigation-drawer>
   </div>
 </template>
 
 <script>
 import Map from '@/components/Map';
-// import Toolbar from '@/components/Toolbar';
-// import StoreInfo from '@/components/StoreInfo';
+import Toolbar from '@/components/Toolbar';
+import StoreInfo from '@/components/StoreInfo';
 
 export default {
   components: {
     Map,
-    // Toolbar,
-   // StoreInfo,
+    Toolbar,
+    StoreInfo,
   },
   data: () => ({
     showStorePanel: false,
